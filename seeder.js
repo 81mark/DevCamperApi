@@ -46,6 +46,7 @@ const deleteData = async () => {
 	}
 };
 
+// To use from CLI :)  node seeder -i || node seeder -d
 if (process.argv[2] === '-i') {
 	importData();
 } else if (process.argv[2] === '-d') {
